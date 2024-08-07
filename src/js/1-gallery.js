@@ -1,6 +1,6 @@
 import { images } from './img-template.js';
 
-import SimpleLightbox from 'simplelightbox';
+import { SimpleLightbox } from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const imageFragment = document.createDocumentFragment();
