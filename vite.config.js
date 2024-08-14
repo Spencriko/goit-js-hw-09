@@ -9,6 +9,12 @@ export default defineConfig(({ command }) => {
       [command === 'serve' ? 'global' : '_global']: {},
     },
     root: 'src',
+    resolve: {
+      alias: {
+        'simplelightbox': 'simplelightbox/dist/simple-lightbox.min.js',
+      },
+    },
+
     build: {
       sourcemap: true,
 
