@@ -1,8 +1,9 @@
 import { images } from './img-template.js';
 
-import { SimpleLightbox } from 'simplelightbox';
+import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
+// создание фрагмента для хранения изображений
 const imageFragment = document.createDocumentFragment();
 
 for (const img of images) {
@@ -29,7 +30,6 @@ for (const img of images) {
   };
 
   linkElem.append(imgElem);
-
   imageFragment.append(liElem);
 }
 
