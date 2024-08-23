@@ -1,7 +1,7 @@
 import { images } from './img-template.js';
 
 import SimpleLightbox from 'simplelightbox';
-import 'simplelightbox/dist/simple-lightbox.min.css';
+
 
 // создание фрагмента для хранения изображений
 const imageFragment = document.createDocumentFragment();
