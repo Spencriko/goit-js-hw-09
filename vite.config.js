@@ -11,7 +11,7 @@ export default defineConfig(({ command }) => {
     root: 'src',
     resolve: {
       alias: {
-        'simplelightbox': 'simplelightbox/dist/simple-lightbox.min.js',
+        'simplelightbox': 'simplelightbox/dist/simple-lightbox.min.css',
       },
     },
 
